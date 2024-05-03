@@ -5,7 +5,7 @@ function App() {
   const [name, setname] = useState<string>("");
   const [message, setMessage] = useState<string>("");
   const onCheck = async () => {
-    const response = await fetch("http://localhost:8000/" + name);
+    const response = await fetch("https://guess-93sv.onrender.com/" + name);
     const data = await response.json();
     setMessage(data.message);
   };
