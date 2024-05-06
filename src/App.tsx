@@ -47,8 +47,9 @@ function App() {
             {code === 444 && (
               <div>
                 your reply here:
-                <input
-                  type="text"
+                <textarea
+                  rows={20}
+                  cols={40}
                   id="reply"
                   onChange={(event) => setreply(event.target.value)}
                   value={reply}
