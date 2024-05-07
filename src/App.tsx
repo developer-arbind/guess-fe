@@ -1,29 +1,14 @@
 import { useState } from "react";
 import "./App.css";
-
+const image = "https://i.imgur.com/E18xHf1.jpg";
 function App() {
   const [name, setname] = useState<string>("");
   const [message, setMessage] = useState<string>("");
-  const [code, setCode] = useState<number>(0);
-  let [reply, setreply] = useState<string>("");
   const onCheck = async () => {
-    const response = await fetch("https://guess-93sv.onrender.com/" + name);
-    const data = await response.json();
-    setMessage(data.message);
-    setCode(data.code);
-  };
-  const sendReply = async () => {
-    const response = await fetch("https://guess-93sv.onrender.com/reply", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        message: reply,
-      }),
-    });
-    if (response.ok) {
-      alert("sent successfully!");
+    if (name === "महिला") {
+      setMessage("$");
+    } else {
+      alert("galat hai!");
     }
   };
   return (
@@ -32,7 +17,8 @@ function App() {
         {!message ? (
           <>
             Hey, maine nepali class main kuchh toh ek nepali word likha jise
-            main bahar hogaya, usko likho nepali main.
+            main bahar hogaya, usko likho nepali main. btw, ek picture hai not
+            text now.
             <input
               type="text"
               id="name"
@@ -43,20 +29,7 @@ function App() {
           </>
         ) : (
           <div>
-            Your Message: {message} or try again if failed
-            {code === 444 && (
-              <div>
-                your reply here:
-                <textarea
-                  rows={20}
-                  cols={40}
-                  id="reply"
-                  onChange={(event) => setreply(event.target.value)}
-                  value={reply}
-                />
-                <button onClick={sendReply}>SEND!</button>
-              </div>
-            )}
+            Your Image here: <img src={image} alt="sam-altman" />
             <button onClick={() => setMessage("")}>Try again</button>
           </div>
         )}
