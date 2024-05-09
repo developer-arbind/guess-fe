@@ -2,10 +2,25 @@ import { useState } from "react";
 import "./App.css";
 const image = `Last time saying leave your long distance bf. (
   I closely understand your all messages, tried to solve each one....
-  if you really had fallin for him. just don't read next lines. stop here and let's continue how we currently going on. I just don't want to scare or hurt you. if you are doing great with him. just ignore me. I am not who to broke that or you should listen me what I am saying. just goahead if you faked something.
+  if you really had fallin for him. just don't read next lines. stop here and let's continue how we currently going on. I just don't want to make you uncomfortable or intensions to hurt you. if you are doing great with him. just ignore me. I am not who to broke that or you should listen me what I am saying. just goahead if you faked something.
 )
 ------------------------------------------------------------------------------
-
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+-----------------------------wants to read the second part, goahead down-------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+----------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
 
 
 
