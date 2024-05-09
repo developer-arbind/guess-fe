@@ -8,7 +8,7 @@ If you left your Ld. I will just spoke everything towards, you what you expectin
 And hope you also wanna say what I am expecting.
 Before anything, I will just be sure, if I am hurting you with any perspective just let it me know.
 I should never do that shi* thing again.
-Okay bye. Reply in the WhatsApp... Take you time as much as possible. I am too tired, going to sleep laa..`;
+Okay bye. Reply in the WhatsApp... Take you time as much as possible. I am too tired, going to sleep laa..btw do you like you me too?`;
 function App() {
   const [name, setname] = useState<string>("");
   const [message, setMessage] = useState<string>("");
